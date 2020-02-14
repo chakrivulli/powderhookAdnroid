@@ -23,7 +23,7 @@ public class VerifyCheckinBack extends ActionHelper{
 	
 	@Test
 	public static void verifyCheckInBack() {
-		
+		//test checkin test
 		
 		String username = excel1.getCellValue("valid", "id");
 		String password = excel1.getCellValue("valid", "password");

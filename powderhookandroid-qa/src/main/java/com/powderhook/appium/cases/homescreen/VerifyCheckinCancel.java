@@ -19,9 +19,9 @@ public class VerifyCheckinCancel extends ActionHelper {
 		/*
 		int tileNo = 1;
 		LoginPage.VerifiedLogin(excel1.getCellValue("valid", "id"), excel1.getCellValue("valid", "password"));
-		click(HomeScreen.vendorList);
+		click(HomeScreen.vendorList);  
 
-		for (int i = 1; i <= 6; i++) {
+		for (int i = 1; i <= 6; i++) { \  
 			String count = appium.findElement(By.xpath(
 					"//*[@resource-id='com.kroger.dsdreceiver:id/rvVendorList']/*[@class='android.widget.FrameLayout']["
 							+ i + "]/following::*[@resource-id='com.kroger.dsdreceiver:id/tvTileCount']")).getText();
